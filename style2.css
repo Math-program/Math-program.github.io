@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "YatraOne";
+    src: url(./font/YatraOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(./font/Ubuntu-Regular.ttf);
+
+}
+
+.page-m {
+    background: url(./image/menu.jpg) center/cover;
+    color: white;
+    height: 500px;
+}
+
+.page-m .titre{
+    text-align: center;
+    font-size: 5rem;
+    padding: 100px;
+}
+
+h2, h1, h3
+{
+    font-family: YatraOne;
+}
+
+p
+{
+    font-family: Ubuntu;
+}
+
+.menu
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a
+{
+    color: white;
+    font-size: 1,5rem;
+}
+
+
+.menu li.acceuil:hover
+{
+    background: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.a-propos:hover
+{
+    background: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.carte:hover
+{
+    background-color: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.contact:hover
+{
+    background-color: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li
+{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.445);
+    border: 3px solid white;
+}
+
+main
+{
+    
+}
+
+.cocktail
+{
+display: flex;
+justify-content: space-around;
+color: white;
+background: rgb(65, 62, 55);
+padding-top: 30px;
+padding-left: 30px;
+border-bottom: 1px solid white;
+}
+
+.nos-cocktails
+{
+   justify-content: center;
+   text-align: center;
+   text-decoration: underline;
+   
+}
+
+.verres
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.des1
+{
+    padding: 20px;
+    border: 4px double rgb(141, 128, 85);
+}
+
+a
+{
+    color: white;
+}
+
+.plat
+{
+    display: flex;
+justify-content: space-around;
+color: white;
+background: rgb(65, 62, 55);
+padding-top: 30px;
+padding-left: 30px;
+border-bottom: 1px solid white;
+}
+
+.p
+{
+    margin-bottom: 30px;
+    border: 4px double rgb(141, 128, 85);
+    padding: 20px;
+}
+
+.d
+{
+    margin-bottom: 30px;
+    border: 4px double rgb(141, 128, 85);
+    padding: 20px;
+    text-align: center;
+}
+
+.principal
+{
+
+}
+
+.Plats
+{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+footer
+{
+    height: 800px;
+}
+
+.map
+{
+    background: white;
+    display: flex;
+    padding: 100px;
+
+}
+
+.map i
+{
+    margin: 20px;
+    font-size: 2rem;
+    
+}
+
+.map h1
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.map .informations
+{
+    background: rgb(141, 91, 91);
+    color: white;
+    margin-top: 90px;
+    margin-left: -150px;
+    height: 450px;
+    width: 600px;
+}
+

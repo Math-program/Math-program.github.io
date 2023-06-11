@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "YatraOne";
+    src: url(./font/YatraOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(./font/Ubuntu-Regular.ttf);
+}
+
+h2, h1, h3
+{
+    font-family: YatraOne;
+}
+
+p
+{
+    font-family: Ubuntu;
+}
+
+.page-a {
+    background: url(./image/nouille.jpg) center/cover;
+    color: white;
+    height: 500px;
+}
+
+.page-a .titre{
+    text-align: center;
+    font-size: 5rem;
+    padding: 100px;
+}
+
+.titre {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.page-p {
+    background: url(./image/assiette.jpg) center/cover;
+    color: white;
+    height: 500px;
+}
+
+.page-p .titre{
+    text-align: center;
+    font-size: 5rem;
+    padding: 100px;
+}
+
+.menu
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a
+{
+    color: white;
+    font-size: 1,5rem;
+}
+
+
+.menu li.acceuil:hover
+{
+    background: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.a-propos:hover
+{
+    background: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.carte:hover
+{
+    background-color: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li.contact:hover
+{
+    background-color: rgba(128, 128, 128, 0.699);
+    transition: 0,4s;
+}
+
+.menu li
+{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.445);
+    border: 3px solid white;
+}
+
+.notre-équipe, .ambiance
+{
+    background: url("./image/bois.jpg") center/cover;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    padding: 120px 30px;
+}
+
+.le-restaurant, .évènements
+{
+    background:  url("./image/ma.jpg") center/cover;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    padding: 120px 30px;
+}
+
+h2
+{
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 3rem;
+padding-bottom: 30px;
+text-decoration: underline;
+}
+
+.le-restaurant p
+{
+    color: white;
+    font-size: 1,5rem;
+    text-align: justify;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+.ambiance p
+{
+    color: white;
+    font-size: 1,5rem;
+    text-align: justify;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+.notre-équipe p
+{
+    color: white;
+    font-size: 1,5rem;
+    text-align: justify;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+.évènements p
+{
+    color: white;
+    font-size: 1,5rem;
+    text-align: justify;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+.le-restaurant img
+{
+    width: 400px;
+    box-shadow: 4px 4px 12px 7px black;
+    border-radius: 30px;
+
+    
+}
+
+.évènements img
+{
+    width: 400px;
+    box-shadow: 4px 4px 12px 7px black;
+    border-radius: 30px;
+}
+
+.notre-équipe img
+{
+    width: 400px;
+    box-shadow: 4px 4px 12px 7px black;
+    border-radius: 30px;
+}
+
+.ambiance img
+{
+    width: 400px;
+    box-shadow: 4px 4px 12px 7px black;
+    border-radius: 30px;
+}
+
+footer
+{
+    height: 800px;
+}
+
+.map
+{
+    background: white;
+    display: flex;
+    padding: 100px;
+
+}
+
+.map i
+{
+    margin: 20px;
+    font-size: 2rem;
+    
+}
+
+.map .informations
+{
+    background: rgb(141, 91, 91);
+    color: white;
+    margin-top: 90px;
+    margin-left: -150px;
+    height: 450px;
+    width: 600px;
+}
+
+.informations h1
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.information p, .information i
+{
+    font-size: 2rem;
+    padding: 70px;
+}
+
+a
+{
+    color: white;
+}
