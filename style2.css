@@ -17,7 +17,7 @@
 }
 
 .page-m {
-    background: url(./image/menu.jpg) center/cover;
+    background: url(./image/table.jpg) center/cover;
     color: white;
     height: 500px;
 }
@@ -87,19 +87,19 @@ p
     border: 3px solid white;
 }
 
-main
+.informations h1
 {
-    
+    text-align: center;
+    font-size: 3rem;
 }
 
-.cocktail
+.cocktails
 {
 display: flex;
 justify-content: space-around;
 color: white;
 background: rgb(65, 62, 55);
-padding-top: 30px;
-padding-left: 30px;
+padding: 30px;
 border-bottom: 1px solid white;
 }
 
@@ -136,29 +136,35 @@ a
 justify-content: space-around;
 color: white;
 background: rgb(65, 62, 55);
-padding-top: 30px;
-padding-left: 30px;
+padding: 30px;
+min-height: 300px;
 border-bottom: 1px solid white;
+
 }
 
+.dessert
+{
+    padding: 5px;
+    border: 4px double rgb(141, 128, 85);
+
+}
 .p
 {
     margin-bottom: 30px;
-    border: 4px double rgb(141, 128, 85);
+   
     padding: 20px;
 }
 
 .d
 {
     margin-bottom: 30px;
-    border: 4px double rgb(141, 128, 85);
     padding: 20px;
     text-align: center;
 }
 
 .principal
 {
-
+border: 4px double rgb(141, 128, 85);
 }
 
 .Plats
@@ -185,7 +191,7 @@ footer
 .map i
 {
     margin: 20px;
-    font-size: 2rem;
+    font-size: 0,5rem;
     
 }
 
@@ -200,8 +206,111 @@ footer
     background: rgb(141, 91, 91);
     color: white;
     margin-top: 90px;
-    margin-left: -150px;
-    height: 450px;
-    width: 600px;
+    margin-left: -200px;
+    height: 350px;
+    width: 400px;
 }
 
+.map img
+{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 1070px) {
+    .principal
+    {
+        padding: 5px;
+        border: none;
+       
+    }
+    .des1
+    {
+        font-size: 20px;
+        border: none;
+    }
+
+    .dessert
+    {
+        font-size: 18px;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+.p
+{
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 800px) {
+        .menu a{
+
+font-size: 14px;
+
+
+    }
+    .menu{
+        padding: 20px;
+        
+    }
+
+    .page-m .titre
+    {
+        font-size: 3rem;
+    }
+
+    .menu li
+    {
+        width: 80px;
+        height: 40px
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .menu li
+    {
+        border: none;
+        background: none;
+    }
+    
+    .page-m
+    {
+        height: 300px;
+    }
+
+    .page-m .titre
+    {
+        font-size: 2rem;
+        padding: 50px;
+        
+    }
+}
+   
+@media screen and (max-width: 510px) {
+   #crumble, #dragon-ball, #Blue-Morjitos, #Negroni
+   {
+    width: 150px;
+   }
+}
+   
+
+ @media screen and (max-width: 400px) {
+    .menu a
+    {
+        font-size: 9px;
+    }
+
+    h2
+    {
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+    #crumble, #dragon-ball, #Blue-Morjitos, #Negroni
+    {
+     width: 100px;
+    }
+
+}
